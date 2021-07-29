@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3a41cbf223404b8b84da269f7a55a6bd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3a41cbf223404b8b84da269f7a55a6bd" ></div>
+        
+</body>
+<script>    
+    
+            var map_3a41cbf223404b8b84da269f7a55a6bd = L.map(
+                "map_3a41cbf223404b8b84da269f7a55a6bd",
+                {
+                    center: [35.87, 128.6],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8bc8d22a54454c7e8e53cb31da5d35e7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3a41cbf223404b8b84da269f7a55a6bd);
+        
+    
+            var marker_5e6ae141fa1247cea1424c4fcc3d0328 = L.marker(
+                [35.8606058227888, 128.557108599061],
+                {}
+            ).addTo(map_3a41cbf223404b8b84da269f7a55a6bd);
+        
+    
+        var popup_31084fdf53d145d5865b50ba0e72c11b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74a67e7ede9c4a8d968f4181281ff8c7 = $(`<div id="html_74a67e7ede9c4a8d968f4181281ff8c7" style="width: 100.0%; height: 100.0%;">영남인재교육원 본관</div>`)[0];
+            popup_31084fdf53d145d5865b50ba0e72c11b.setContent(html_74a67e7ede9c4a8d968f4181281ff8c7);
+        
+
+        marker_5e6ae141fa1247cea1424c4fcc3d0328.bindPopup(popup_31084fdf53d145d5865b50ba0e72c11b)
+        ;
+
+        
+    
+    
+            var marker_54f4e059f2b64243a531a615dfa7454b = L.marker(
+                [35.86131871047, 128.556287611677],
+                {}
+            ).addTo(map_3a41cbf223404b8b84da269f7a55a6bd);
+        
+    
+        var popup_27730dd37b8c4f4aa961119672f23f44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c12eea998164dedad7f12c162e3fc3a = $(`<div id="html_5c12eea998164dedad7f12c162e3fc3a" style="width: 100.0%; height: 100.0%;">영남인재교육원 전기관</div>`)[0];
+            popup_27730dd37b8c4f4aa961119672f23f44.setContent(html_5c12eea998164dedad7f12c162e3fc3a);
+        
+
+        marker_54f4e059f2b64243a531a615dfa7454b.bindPopup(popup_27730dd37b8c4f4aa961119672f23f44)
+        ;
+
+        
+    
+    
+            var marker_4d4defea0c724ef28beac413524fdd43 = L.marker(
+                [35.8612839801935, 128.556071087539],
+                {}
+            ).addTo(map_3a41cbf223404b8b84da269f7a55a6bd);
+        
+    
+        var popup_96fe1530f3cf4f0f9829b7918a3349b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d3bcbc76d134353891d21fe81ad0571 = $(`<div id="html_6d3bcbc76d134353891d21fe81ad0571" style="width: 100.0%; height: 100.0%;">영남인재교육원 IT관</div>`)[0];
+            popup_96fe1530f3cf4f0f9829b7918a3349b3.setContent(html_6d3bcbc76d134353891d21fe81ad0571);
+        
+
+        marker_4d4defea0c724ef28beac413524fdd43.bindPopup(popup_96fe1530f3cf4f0f9829b7918a3349b3)
+        ;
+
+        
+    
+</script>
